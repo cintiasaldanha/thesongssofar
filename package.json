@@ -1,0 +1,21 @@
+{
+  "name": "thesongssofar",
+  "version": "1.0.0",
+  "description": "SUPERNATURAL - The Songs So Far - 15 anos de Rock! API que provê CRUD para manutenção do cadastro de músicas da trilha sonora de Supernatural, visando o desenvolvimento de soluções voltadas ao fandom do seriado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "author": "Cintia Saldanha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
